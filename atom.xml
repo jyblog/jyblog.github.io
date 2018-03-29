@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>观江不语</title>
+  <title>一个博客</title>
   
-  <subtitle>纤纤不绝林薄成，涓涓不止江河生。</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
