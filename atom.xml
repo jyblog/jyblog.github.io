@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-29T05:02:39.709Z</updated>
+  <updated>2018-03-29T09:45:21.427Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,15 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test_my_blog</title>
+    <title>Wixo主题学习</title>
     <link href="http://yoursite.com/2018/03/29/test-my-blog/"/>
     <id>http://yoursite.com/2018/03/29/test-my-blog/</id>
     <published>2018-03-29T02:34:32.000Z</published>
-    <updated>2018-03-29T05:02:39.709Z</updated>
+    <updated>2018-03-29T09:45:21.427Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;p&gt;&amp;emsp;&amp;emsp;在选择Hexo主题上，一直非常喜欢简介的款式，第一眼挑中的是&lt;a href=&quot;https://github.com/wzpan/hexo-theme-wixo&quot; target=&quot;_blank&quot;
+        
+      
+    
     </summary>
+    
+      <category term="博客优化" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/"/>
     
     
   </entry>

@@ -3,10 +3,16 @@
   
     
     <entry>
-      <title>test_my_blog</title>
+      <title>Wixo主题学习</title>
       <link href="/2018/03/29/test-my-blog/"/>
       <url>/2018/03/29/test-my-blog/</url>
-      <content type="html"><![CDATA[]]></content>
+      <content type="html"><![CDATA[<p>&emsp;&emsp;在选择Hexo主题上，一直非常喜欢简介的款式，第一眼挑中的是<a href="https://github.com/wzpan/hexo-theme-wixo" target="_blank" rel="noopener">Wixo</a>，功能简单，页面简洁，关键是源码不多，适合观摩学习。</p><hr><p><strong>一. Wixo主题框架</strong></p><pre><code>| First Header | Second Header | Third Header || ------------ | ------------- | ------------ || Content Cell | Content Cell  | Content Cell |  | Content Cell | Content Cell  | Content Cell |</code></pre>]]></content>
+      
+      <categories>
+          
+          <category> 博客优化 </category>
+          
+      </categories>
       
       
     </entry>
