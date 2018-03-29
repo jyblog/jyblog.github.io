@@ -45,7 +45,7 @@
     
     <title>
         
-            Wixo主题学习 | 
+            friends | 
         
         喜山
     </title>
@@ -212,7 +212,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="喜山">
-    <meta name="msapplication-starturl" content="http://yoursite.com/2018/03/29/test-my-blog/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/friends/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="喜山">
@@ -231,16 +231,13 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/2018/03/29/test-my-blog/">
+    <meta property="og:url" content="http://yoursite.com/friends/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Wixo主题学习 | 喜山">
+    <meta property="og:title" content="friends | 喜山">
     <meta property="og:image" content="/img/favicon0.png">
     <meta property="og:description" content="">
     
 
-    
-        <meta property="article:published_time" content="Thu Mar 29 2018 10:34:32 GMT+0800">
-        <meta property="article:modified_time" content="Thu Mar 29 2018 17:58:27 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -248,43 +245,13 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/2018/03/29/test-my-blog/index.html" />
+        <link rel="canonical" href="http://yoursite.com/friends/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
-
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "mainEntityOfPage": "http://yoursite.com/2018/03/29/test-my-blog/index.html",
-    "headline": "Wixo主题学习",
-    "datePublished": "Thu Mar 29 2018 10:34:32 GMT+0800",
-    "dateModified": "Thu Mar 29 2018 17:58:27 GMT+0800",
-    "author": {
-        "@type": "Person",
-        "name": "jy-w",
-        "image": {
-            "@type": "ImageObject",
-            "url": "/img/39.png"
-        },
-        "description": "「高龄笨学生」,「计算机与法律学习者」"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "喜山",
-        "logo": {
-            "@type":"ImageObject",
-            "url": "/img/favicon0.png"
-        }
-    },
-    "keywords": "",
-    "description": "",
-}
-</script>
 
 
     
@@ -320,245 +287,125 @@
 
                     <!-- Post TOC -->
 
-    
-    <!-- Back Button -->
-    <!--
-    <div class="material-back" id="backhome-div" tabindex="0">
-        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
-           href="#" onclick="window.history.back();return false;"
-           target="_self"
-           role="button"
-           data-upgraded=",MaterialButton,MaterialRipple">
-            <i class="material-icons" role="presentation">arrow_back</i>
-            <span class="mdl-button__ripple-container">
-                <span class="mdl-ripple"></span>
-            </span>
-        </a>
-    </div>
-    -->
-
-
-    <!-- Left aligned menu below button -->
-    
-    
-
-
-
 
 <!-- Layouts -->
 
-    <!-- Post Module -->
-    <div class="material-post_container">
+    <!-- Single Links Page -->
+    <style>
+    .md-links {
+        min-height: calc(100% - 120px - 5pc - 6em);
+        text-align: center;
+        overflow: auto;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 320px;
+    }
 
-        <div class="material-post mdl-grid">
-            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+    @media screen and (min-width: 680px) {
+        .md-links {
+            max-width: 640px;
+        }
+    }
 
-                <!-- Post Header(Thumbnail & Title) -->
-                
-    <!-- Paradox Post Header -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-            <script type="text/ls-javascript" id="post-thumbnail-script">
-    var randomNum = Math.floor(Math.random() * 19 + 1);
+    @media screen and (min-width: 1000px) {
+        .md-links {
+            max-width: 960px;
+        }
+    }
 
-    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-</script>
+    @media screen and (min-width: 1320px) {
+        .md-links {
+            max-width: 1280px;
+        }
+    }
 
-        
-    
-            <p class="article-headline-p">
-                Wixo主题学习
-            </p>
-        </div>
+    @media screen and (min-width: 1640px) {
+        .md-links {
+            max-width: 1600px;
+        }
+    }
 
+    @media screen and (max-width: 480px) {
+        .md-links {
+            min-height: calc(100% - 200px - 5pc - 6em);
+            margin-top: 6em;
+        }
+    }
 
+    .md-links-item {
+        background: #fff;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+        height: 72px;
+        line-height: 15px;
+        margin: 20px 10px;
+        padding: 0px 0px;
+        transition: box-shadow 0.25s;
+    }
 
+    .md-links a {
+        color: #333;
+        text-decoration: none;
+    }
 
+    .md-links li {
+        width: 300px;
+        float: left;
+        list-style: none;
+    }
 
-                
-                    <!-- Paradox Post Info -->
-                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+    .md-links-item img {
+        float: left;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 11px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    }
 
-    <!-- Author Avatar -->
-    <div id="author-avatar">
-        <img src="/img/39.png" width="44px" height="44px" alt="Author Avatar"/>
-    </div>
-    <!-- Author Name & Date -->
-    <div>
-        <strong>jy-w</strong>
-        <span>3月 29, 2018</span>
-    </div>
+    .md-links-item:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
 
-    <div class="section-spacer"></div>
+    .md-links-item a:hover{
+        cursor: pointer;
+    }
 
-    <!-- Favorite -->
-    <!--
-        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
-            <i class="material-icons" role="presentation">favorite</i>
-            <span class="visuallyhidden">favorites</span>
-        </button>
-    -->
+    .md-links-title {
+        font-size: 20px;
+        line-height: 50px;
+    }
 
-    <!-- Qrcode -->
-    
-
-    <!-- Tags (bookmark) -->
-    
-
-    <!-- Share -->
-    
-        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons" role="presentation">share</i>
-    <span class="visuallyhidden">share</span>
-</button>
-<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    
-
-    
-        
-            <!-- Busuanzi Views -->
-            <a class="post_share-link" href="#">
-                <li class="mdl-menu__item">
-                    <span id="busuanzi_container_page_pv">
-                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
-                    </span>
-                </li>
-            </a>
-        
-    
-
-    <!-- Share Weibo -->
-    
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Wixo主题学习&url=http://yoursite.com/2018/03/29/test-my-blog/index.html&pic=http://yoursite.com/img/favicon0.png&searchPic=false&style=simple" target="_blank">
-            <li class="mdl-menu__item">
-                分享到微博
-            </li>
-        </a>
-    
-
-    <!-- Share Twitter -->
-    
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Wixo主题学习&url=http://yoursite.com/2018/03/29/test-my-blog/index.html&via=jy-w" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Twitter
-            </li>
-        </a>
-    
-
-    <!-- Share Facebook -->
-    
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/03/29/test-my-blog/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Facebook
-            </li>
-        </a>
-    
-
-    <!-- Share Google+ -->
-    
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2018/03/29/test-my-blog/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Google+
-            </li>
-        </a>
-    
-
-    <!-- Share LinkedIn -->
-    
-
-    <!-- Share QQ -->
-    
-
-    <!-- Share Telegram -->
-    
-</ul>
-
-    
-</div>
-
-                
-
-                <!-- Post Content -->
-                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
-    
-        <p>&emsp;&emsp;在选择Hexo主题上，一直非常喜欢简介的款式，第一眼挑中的是<a href="https://github.com/wzpan/hexo-theme-wixo" target="_blank" rel="noopener">Wixo</a>，功能简单，页面简洁，关键是源码不多，适合观摩学习。</p>
-<hr>
-<p><strong>一. Wixo主题框架</strong></p>
-<pre><code>| Item     | Value     | Qty   |
-| :------- | --------: | :---: |
-| Computer | 1600 USD  | 5     |
-| Phone    | 12 USD    | 12    |
-| Pipe     | 1 USD     | 234   |
-</code></pre>
-        
-    
-
-    
-</div>
-
-
-                
-
-                <!-- Post Comments -->
-                
-                    
-    <!-- 使用 DISQUS -->
-<div id="disqus-comment">
-    <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_config = function () {
-        this.page.url = 'http://yoursite.com/2018/03/29/test-my-blog/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://yoursite.com/2018/03/29/test-my-blog/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-</script>
-<script type="text/ls-javascript" id="disqus-thread-script">
-    queue.offer(function() {
-            (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document;
-                var s = d.createElement('script');
-                s.src = '//jyblog.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', + new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        });
-</script>
-
-</div>
-<style>
-    #disqus-comment{
-        background-color: #eee;
-        padding: 2pc;
+    #scheme-Paradox .mdl-mini-footer{
+        clear: left;
+    }
+    #bottom{
+        position: relative;
     }
 </style>
 
-                
-            </div>
-
-            <!-- Post Prev & Next Nav -->
-            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-    <!-- Prev Nav -->
+<ul class="md-links">
     
-
-    <!-- Section Spacer -->
-    <div class="section-spacer"></div>
-
-    <!-- Next Nav -->
+        
+            <li class="md-links-item">
+                <a href="" title="Name" target="_blank">
+                    <img src="" alt="Name" height="72px"/>
+                    <span class="md-links-title">Name</span><br />
+                    <span></span>
+                </a>
+            </li>
+        
     
-        <a href="/2018/03/29/hello-world/" id="post_nav-older" class="next-content">
-            旧篇
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_forward</i>
-            </button>
-        </a>
-    
-</nav>
+</ul>
 
-        </div>
-    </div>
+<script type="text/ls-javascript" id="page-links-script">
+    var adjustFooter = function() {
+        if( ($('#bottom').offset().top + $('#bottom').outerHeight() )<$(window).height() ) {
+            var footerBottom = $(window).height() - $('#bottom').outerHeight() - $('#bottom').offset().top;
+            $('#bottom').css('bottom', '-' + footerBottom + 'px');
+        }
+    };
+    $(document).ready(function() {
+        adjustFooter();
+    });
+</script>
+
+
 
 
 
@@ -750,14 +597,6 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
-
-                    
-                        <!-- Footer Top Button -->
-                        <div id="back-to-top" class="toTop-wrap">
-    <a href="#top" class="toTop">
-        <i class="material-icons footer_top-i">expand_less</i>
-    </a>
-</div>
 
                     
 
