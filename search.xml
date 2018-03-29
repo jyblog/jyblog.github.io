@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>test_my_blog</title>
+      <link href="/2018/03/29/test-my-blog/"/>
+      <url>/2018/03/29/test-my-blog/</url>
+      <content type="html"><![CDATA[]]></content>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>家有博客初建成</title>
+      <link href="/2018/03/29/hello-world/"/>
+      <url>/2018/03/29/hello-world/</url>
+      <content type="html"><![CDATA[]]></content>
+      
+      <categories>
+          
+          <category> 博客优化 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+  
+  
+</search>
