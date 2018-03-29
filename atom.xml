@@ -31,23 +31,17 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
+    <title>家有博客初建成</title>
     <link href="http://yoursite.com/2018/03/29/hello-world/"/>
     <id>http://yoursite.com/2018/03/29/hello-world/</id>
     <published>2018-03-29T02:33:21.399Z</published>
-    <updated>2018-03-29T02:33:21.400Z</updated>
+    <updated>2018-03-29T04:42:41.041Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
     </summary>
+    
+      <category term="博客优化" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/"/>
     
     
   </entry>
