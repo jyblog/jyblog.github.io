@@ -3,25 +3,10 @@
   
     
     <entry>
-      <title>Wixo主题学习</title>
-      <link href="/2018/03/29/test-my-blog/"/>
-      <url>/2018/03/29/test-my-blog/</url>
-      <content type="html"><![CDATA[<p>&emsp;&emsp;在选择Hexo主题上，一直非常喜欢简介的款式，第一眼挑中的是<a href="https://github.com/wzpan/hexo-theme-wixo" target="_blank" rel="noopener">Wixo</a>，功能简单，页面简洁，关键是源码不多，适合观摩学习。</p><hr><p><strong>一. Wixo主题框架</strong></p><pre><code>| Item     | Value     | Qty   || :------- | --------: | :---: || Computer | 1600 USD  | 5     || Phone    | 12 USD    | 12    || Pipe     | 1 USD     | 234   |</code></pre>]]></content>
-      
-      <categories>
-          
-          <category> 博客优化 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    <entry>
-      <title>家有博客初建成</title>
+      <title>喜山伊始</title>
       <link href="/2018/03/29/hello-world/"/>
       <url>/2018/03/29/hello-world/</url>
-      <content type="html"><![CDATA[]]></content>
+      <content type="html"><![CDATA[<p>&emsp;&emsp;<a href="https://jyblog.github.io" target="_blank" rel="noopener">喜山</a>经历了博主不负责任的一周抉择，今日是要将初期的建设阶段完成。<a id="more"></a>主题更换了数个，本意是想自己设计一个主题，无奈学业不精；又想在大神们的肩膀上做些更改，又无奈还是学业不精，改得面目全非，连网页都加载不出来了。<br>&emsp;&emsp;最后决定选择<a href="http://www.garyshen.com" target="_blank" rel="noopener">主题curry</a>，less is more，此外，这个文件最少，适合学习。今日剩下的任务，读懂curry的所有代码，完成<strong>喜山一期</strong>建设。</p><ul><li>添加“分类”页面</li><li>尝试设计一个“学习计划”页面<ul><li>function:显示每日/周/月task列表</li></ul></li><li>小细节修改</li></ul>]]></content>
       
       <categories>
           
