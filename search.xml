@@ -4,18 +4,9 @@
     
     <entry>
       <title>喜山伊始</title>
-      <link href="/2018/03/30/%E5%96%9C%E5%B1%B1%E4%BC%8A%E5%A7%8B-1/"/>
-      <url>/2018/03/30/%E5%96%9C%E5%B1%B1%E4%BC%8A%E5%A7%8B-1/</url>
-      <content type="html"><![CDATA[]]></content>
-      
-      
-    </entry>
-    
-    <entry>
-      <title>喜山伊始</title>
       <link href="/2018/03/29/%E5%96%9C%E5%B1%B1%E4%BC%8A%E5%A7%8B/"/>
       <url>/2018/03/29/%E5%96%9C%E5%B1%B1%E4%BC%8A%E5%A7%8B/</url>
-      <content type="html"><![CDATA[<p>&emsp;&emsp;</p>]]></content>
+      <content type="html"><![CDATA[<p> 字体</p>]]></content>
       
       <categories>
           
@@ -23,6 +14,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
       
     </entry>
     
