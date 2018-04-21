@@ -86,19 +86,18 @@
 </li>
 </ol>
 <h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><ol>
-<li>检验是否配置成功，运行cmd，分别输入<code>java</code>,<code>java -version</code>,<code>javac</code>三条命令查看。<ul>
+<li><p>检验是否配置成功，运行cmd，分别输入<code>java</code>,<code>java -version</code>,<code>javac</code>三条命令查看。</p>
+<ul>
 <li>输入<code>java</code>:显示java命令的用法<br><img src="https://i.imgur.com/Zs8YJYi.png" alt=""></li>
 <li>输入<code>java -version</code>:显示当前安装的java版本<br><img src="https://i.imgur.com/os1HuKs.png" alt=""></li>
 <li>输入<code>javac</code>：显示javac命令的用法<blockquote>
-<p>javac是收录于JDK中的Java语言编译器。 该工具可以将后缀名为.java的源文件编译为后缀名为.class的可以运行于Java虚拟机的字节码。(维基百科)</p>
+<p>javac是收录于JDK中的Java语言编译器。 该工具可以将后缀名为.java的源文件编译为后缀名为.class的可以运行于Java虚拟机的字节码。(维基百科)<br><img src="https://i.imgur.com/VblXyKO.png" alt=""><br></p>
 </blockquote>
 </li>
 </ul>
 </li>
-</ol>
-<p><img src="https://i.imgur.com/VblXyKO.png" alt=""><br></p>
-<ol start="2">
-<li>也可以在命令行输入<code>echo %JAVA_HOME%</code>检查配置路径是否正确</li>
+<li><p>也可以在命令行输入<code>echo %JAVA_HOME%</code>检查配置路径是否正确</p>
+</li>
 </ol>
 <p><img src="https://i.imgur.com/oEhFfgX.png" alt=""> <br></p>
 <h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><ol>
@@ -107,6 +106,7 @@
 <li><p>配置环境变量（以我个人计算机为例）：<br>JAVA_HOME: <code>D:\Program_software\JAVA\jdk1.8</code><br>classpath: <code>.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;</code><br>path: <code>;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin</code></p>
 </li>
 </ol>
+<hr>
 <h1 id="解决javac命令无效的两种情况"><a href="#解决javac命令无效的两种情况" class="headerlink" title="解决javac命令无效的两种情况"></a>解决<code>javac</code>命令无效的两种情况</h1><h2 id="‘javac’不是内部或外部命令"><a href="#‘javac’不是内部或外部命令" class="headerlink" title="‘javac’不是内部或外部命令"></a><font color="black" size="5">‘javac’不是内部或外部命令</font></h2><ul>
 <li>问题表现：当测试环境是否成功配置时，常出现该种情况：输入命令<code>java</code>和<code>java -version</code>时显示正常，但输入命令<code>javac</code>时，会出现提示：<code>&#39;javac&#39;不是内部或外部命令，也不是可运行的程序或批处理文件</code><br><img src="https://i.imgur.com/oj4CfPM.png" alt=""></li>
 <li>出现原因与解决方法：</li>
@@ -132,6 +132,7 @@
 </ol>
 </li>
 </ul>
+<hr>
 <h1 id="用记事本写hello-world，并用控制台的方式运行起来"><a href="#用记事本写hello-world，并用控制台的方式运行起来" class="headerlink" title="用记事本写hello world，并用控制台的方式运行起来"></a><font size="4"><strong>用记事本写hello world，并用控制台的方式运行起来</strong></font></h1><ol>
 <li>新建记事本，重命名为“HelloWorld.java”。（如何更改文件扩展名，百度一下或google一下你就知道）</li>
 <li>右键点击，选择“编辑”。</li>
