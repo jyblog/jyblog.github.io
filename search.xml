@@ -3,14 +3,14 @@
   
     
     <entry>
-      <title>JAVA环境安装</title>
-      <link href="/2018/04/21/JAVA%E5%AD%A6%E4%B9%A0%E5%87%86%E5%A4%87/"/>
-      <url>/2018/04/21/JAVA%E5%AD%A6%E4%B9%A0%E5%87%86%E5%A4%87/</url>
+      <title>JAVA开发环境配置</title>
+      <link href="/2018/04/21/JAVA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+      <url>/2018/04/21/JAVA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
       <content type="html"><![CDATA[<p>内容概要：</p><ol><li>Windows环境下JAVA JDK的安装</li><li>解决javac问题</li><li>用记事本写hello world，并用控制台的方式运行起来<a id="more"></a></li></ol><hr><h1 id="Windows环境下JAVA-JDK的安装"><a href="#Windows环境下JAVA-JDK的安装" class="headerlink" title="Windows环境下JAVA JDK的安装"></a>Windows环境下JAVA JDK的安装</h1><h2 id="安装前准备"><a href="#安装前准备" class="headerlink" title="安装前准备"></a><font color="black" size="5"><strong>安装前准备</strong></font></h2><h3 id="安装路径"><a href="#安装路径" class="headerlink" title="安装路径"></a><font color="black" size="4"><strong>安装路径</strong></font></h3><h4 id="JDK-JVM与JRE"><a href="#JDK-JVM与JRE" class="headerlink" title="JDK,JVM与JRE"></a><font color="black" size="4"><strong>JDK,JVM与JRE</strong></font></h4><p><strong>JDK：Java Development Kit （java开发工具包）</strong></p><ul><li>环境的核心组件，提供编译、调试和运行一个Java程序所需的所有工具，可执行文件和二进制文件。</li><li>是程序员使用java语言编写java程序所需的开发工具包，是提供给开发人员使用的。</li><li>有针对Windows,Mac OS,Solaris,Linux系统的不同的安装包，目前(2018/04)JDK最新版号是1.8。</li></ul><p><strong>JVM：Java Virtual Machine（java虚拟机）</strong></p><ul><li>JVM是编程语言的核心。当运行一个java程序时，JVM负责将字节码转换为特定机器代码。</li><li>JVM是平台特定的，提供核心的Java方法，例如内存管理、垃圾回收、安装机制等。</li><li>JVM是可定制化的，可通过Java选项(java options)定制，比如配置JVM内存的上下界。</li><li>JVM提供了一个不依赖于底层操作系统和机器硬件的接口（“虚拟”），使Java独立于硬件和操作系统，可以一处编写多处执行。</li></ul><p><strong>JRE：Java Runtime Enviroment（java运行时环境）</strong></p><ul><li>JRE是JVM的实施实现，提供了运行Java程序的平台。包含JVM、Java二进制文件和JFC（Java Foundation Class,Java基础类库）。</li><li>JRE不包含任何Java编辑器、调试器之类的开发工具，如果只是要执行Java程序，安装JRE即可，无需安装JDK。</li></ul><h4 id="安装路径配置"><a href="#安装路径配置" class="headerlink" title="安装路径配置"></a><font color="black" size="4"><strong>安装路径配置</strong></font></h4><ul><li>安装过程中会有两次安装路径选择，第一次安装jdk，第二次安装jre。为避免安装成功后出现无法使用某些命令(如常出现的javac无法使用)的情况，<font color="blue"><strong>jdk与jre安装在同一个java文件夹中的不同文件夹中</strong></font>。</li><li>具体做法：在D盘（C盘或E盘都可以）中创建文件夹”Program-software”&gt;&gt;”JAVA”，在”JAVA”文件夹中创建两个文件夹：”jdk1.8”与”jre1.8”，分别安装jdk与jre。</li></ul><h3 id="确定系统类型"><a href="#确定系统类型" class="headerlink" title="确定系统类型"></a><font color="black" size="4"><strong>确定系统类型</strong></font></h3><ul><li>对于不同系统及系统不同的版本类型，有不同的安装包，因此在下载安装包前，需确定个人计算机的系统类型。</li><li>Windows10系统类型的具体查看路径：<code>控制面板&gt;系统和安全&gt;系统</code><br>本机是Windows10 64位操作系统<img src="https://i.imgur.com/lZHXJSB.png" alt=""></li></ul><h3 id="安装包下载"><a href="#安装包下载" class="headerlink" title="安装包下载"></a><font color="black" size="4"><strong>安装包下载</strong></font></h3><ol><li>访问官网下载：<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="noopener">Java SE开发工具包下载</a></li><li>根据本机的操作系统选择相应的安装包<br><img src="https://i.imgur.com/XMtWWhK.png" alt=""><br>我这里选择的是：<code>jdk-8u172-windows-x64.exe</code></li><li>下载前要先选择 <code>Accept License Agreement</code></li><li>注意区分：<br>Java SE Development Kit 8u172：Java SE开发包（配置Java开发环境的必须）<br>Java SE Development Kit 8u172 Demos and Samples Downloads：Java SE开发包+示例</li></ol><h2 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;安装过程中会出现两次安装提示。第一次是安装jdk，第二次是安装jre。将jdk和jre分别安装在之前配置好的安装路径下。<br>jdk安装路径：<code>D:\Program_software\JAVA\jdk1.8</code><br>jre安装路径：<code>D:\Program_software\JAVA\jre1.8</code></p><ol><li>双击jdk-8u172-windows-x64.exe<br><img src="https://i.imgur.com/VctR0Cv.png" alt=""></li><li>点击“下一步”继续<br><img src="https://i.imgur.com/MG1bR1R.png" alt=""></li><li>选择安装路径，点击“下一步继续”。默认路径是C盘，根据自己之前设置的路径，选择的是<code>D:\Program_software\JAVA\jdk1.8\</code><br><img src="https://i.imgur.com/WXj7Ddc.png" alt=""><br><img src="https://i.imgur.com/VpH8IRd.png" alt=""></li><li>等待安装<br><img src="https://i.imgur.com/AaGJmx4.png" alt=""></li><li>开始jre安装，默认路径是C盘<br><img src="https://i.imgur.com/0ySRHmF.png" alt=""></li><li>选择jre安装路径：<code>D:\Program_software\JAVA\jre1.8\</code><br><img src="https://i.imgur.com/Hlxebol.png" alt=""></li><li>等待安装<br><img src="https://i.imgur.com/CIoNCTy.png" alt=""></li><li>安装成功<br><img src="https://i.imgur.com/zMMLoFz.png" alt=""></li></ol><h2 id="安装后-配置系环境变量"><a href="#安装后-配置系环境变量" class="headerlink" title="安装后-配置系环境变量"></a>安装后-配置系环境变量</h2><p>Windows 10环境下，进入环境变量：右击“我的电脑”–&gt;“属性”–&gt;“高级系统设置”–&gt;“环境变量”。</p><ol><li>配置JAVA_HOME环境变量</li></ol><ul><li>作用：指向jdk的安装目录，Eclipse/NetBeans/Tomcat等软件就是通过搜索JAVA_HOME变量来找到并使用安装好的jdk。</li><li>配置方法：在系统变量里点击新建，变量名填写JAVA_HOME，变量值填写JDK的安装路径。（根据自己的安装路径填写，本机为<code>D:\Program_software\JAVA\jdk1.8</code>）<br><img src="https://i.imgur.com/Ca0aXA9.png" alt=""></li></ul><ol start="2"><li>配置classpath环境变量</li></ol><ul><li>作用：指定类搜索路径。要使用已经编写好的类，前提是能够找到它们。JVM就是通过classpath来寻找类。我们需要把jdk安装目录下的lib子目录中的dt.jar和tools.jar设置到CLASSPATH中，当前目录“.”也必须加入到该变量中。</li><li>配置方法：新建classpath变量，变量值为<code>.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;</code>。classpath变量名字，大小写均可。<strong>注意不要忘记前面的点和中间的分号，且使用英文输入下的分号和逗号</strong>。<br><img src="https://i.imgur.com/gUlD3md.png" alt=""></li></ul><ol start="3"><li>配置path环境变量</li></ol><ul><li>作用：指定命令搜索路径。在i命令行下面执行命令如javac编译java程序时，它会到path变量所指定的路径中查找看是否能找到相应的命令程序。</li><li>jdk安装目录下的bin目录中包含经常要用到的可执行文件如javac/java/javadoc等，所以需要把jdk安装目录下的bin目录增加到现有的path变量中设置好PATH变量后，就可以在任何目录下执行javac/java等工具。</li><li>配置方法：在系统变量里找到Path变量（系统自带的，不用新建）。双击Path，由于原来的变量值已经存在，故应在已有的变量后加上<code>;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin</code>,<strong>注意前面的分号</strong>。<br><img src="https://i.imgur.com/ovYjIIp.png" alt=""></li></ul><h2 id="测试环境"><a href="#测试环境" class="headerlink" title="测试环境"></a>测试环境</h2><ol><li>检验是否配置成功，运行cmd，分别输入<code>java</code>,<code>java -version</code>,<code>javac</code>三条命令查看。</li></ol><ul><li>输入<code>java</code>:显示java命令的用法<br><img src="https://i.imgur.com/Zs8YJYi.png" alt=""></li><li>输入<code>java -version</code>:显示当前安装的java版本<br><img src="https://i.imgur.com/os1HuKs.png" alt=""></li><li>输入<code>javac</code>：显示javac命令的用法<blockquote><p>javac是收录于JDK中的Java语言编译器。 该工具可以将后缀名为.java的源文件编译为后缀名为.class的可以运行于Java虚拟机的字节码。(维基百科)</p></blockquote></li></ul><p><img src="https://i.imgur.com/VblXyKO.png" alt=""></p><ol start="2"><li>也可以在命令行输入<code>echo %JAVA_HOME%</code>检查配置路径是否正确<br><img src="https://i.imgur.com/oEhFfgX.png" alt=""> </li></ol>]]></content>
       
       <categories>
           
-          <category> JAVA </category>
+          <category> JAVA学习 </category>
           
       </categories>
       
@@ -18,25 +18,6 @@
         <tags>
             
             <tag> JAVA </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>软件测试与需求分析</title>
-      <link href="/2018/04/01/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E4%B8%8E%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/"/>
-      <url>/2018/04/01/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E4%B8%8E%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/</url>
-      <content type="html"><![CDATA[<pre><code>本文是针对本学期软件测试课程的作业（某服装库存管理系统的软件测试）的学习笔记。</code></pre><a id="more"></a>]]></content>
-      
-      
-        <tags>
-            
-            <tag> 软件测试 </tag>
-            
-            <tag> 软件需求分析 </tag>
-            
-            <tag> 学习 </tag>
             
         </tags>
       
