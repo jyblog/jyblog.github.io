@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-21T14:44:33.885Z</updated>
+  <updated>2018-04-24T03:14:10.564Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,26 +17,68 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>JAVA开发环境配置</title>
+    <title>摘自电影《超体》</title>
+    <link href="http://yoursite.com/2018/04/22/%E6%91%98%E8%87%AA%E3%80%8A%E8%B6%85%E4%BD%93%E3%80%8B/"/>
+    <id>http://yoursite.com/2018/04/22/摘自《超体》/</id>
+    <published>2018-04-22T15:47:03.000Z</published>
+    <updated>2018-04-24T03:14:10.564Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/D7f8ZBc.jpg&quot; alt=&quot;&quot;&gt;
+    
+    </summary>
+    
+    
+      <category term="电影" scheme="http://yoursite.com/tags/%E7%94%B5%E5%BD%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>优雅的Eclipse(未完)</title>
+    <link href="http://yoursite.com/2018/04/22/%E4%BC%98%E9%9B%85%E7%9A%84Eclipse/"/>
+    <id>http://yoursite.com/2018/04/22/优雅的Eclipse/</id>
+    <published>2018-04-21T16:15:34.000Z</published>
+    <updated>2018-04-24T02:47:21.583Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/2JrLc3b.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Java学习" scheme="http://yoursite.com/categories/Java%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="IDE安装" scheme="http://yoursite.com/categories/Java%E5%AD%A6%E4%B9%A0/IDE%E5%AE%89%E8%A3%85/"/>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+      <category term="Eclipse" scheme="http://yoursite.com/tags/Eclipse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java开发环境配置</title>
     <link href="http://yoursite.com/2018/04/21/JAVA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     <id>http://yoursite.com/2018/04/21/JAVA开发环境配置/</id>
     <published>2018-04-21T02:45:09.160Z</published>
-    <updated>2018-04-21T14:44:33.885Z</updated>
+    <updated>2018-04-21T16:18:00.808Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;内容概要：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Windows环境下JAVA JDK的安装&lt;/li&gt;
+&lt;li&gt;Windows环境下Java JDK的安装&lt;/li&gt;
 &lt;li&gt;解决javac问题&lt;/li&gt;
 &lt;li&gt;用记事本写hello world，并用控制台的方式运行起来
     
     </summary>
     
-      <category term="JAVA学习" scheme="http://yoursite.com/categories/JAVA%E5%AD%A6%E4%B9%A0/"/>
+      <category term="Java学习" scheme="http://yoursite.com/categories/Java%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="JAVA" scheme="http://yoursite.com/tags/JAVA/"/>
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
     
   </entry>
   
