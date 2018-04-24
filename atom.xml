@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-24T03:14:10.564Z</updated>
+  <updated>2018-04-24T03:23:26.591Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,13 +21,15 @@
     <link href="http://yoursite.com/2018/04/22/%E6%91%98%E8%87%AA%E3%80%8A%E8%B6%85%E4%BD%93%E3%80%8B/"/>
     <id>http://yoursite.com/2018/04/22/摘自《超体》/</id>
     <published>2018-04-22T15:47:03.000Z</published>
-    <updated>2018-04-24T03:14:10.564Z</updated>
+    <updated>2018-04-24T03:23:26.591Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/D7f8ZBc.jpg&quot; alt=&quot;&quot;&gt;
     
     </summary>
+    
+      <category term="电影记录" scheme="http://yoursite.com/categories/%E7%94%B5%E5%BD%B1%E8%AE%B0%E5%BD%95/"/>
     
     
       <category term="电影" scheme="http://yoursite.com/tags/%E7%94%B5%E5%BD%B1/"/>
@@ -39,7 +41,7 @@
     <link href="http://yoursite.com/2018/04/22/%E4%BC%98%E9%9B%85%E7%9A%84Eclipse/"/>
     <id>http://yoursite.com/2018/04/22/优雅的Eclipse/</id>
     <published>2018-04-21T16:15:34.000Z</published>
-    <updated>2018-04-24T02:47:21.583Z</updated>
+    <updated>2018-04-24T03:23:42.754Z</updated>
     
     <summary type="html">
     
@@ -48,8 +50,6 @@
     </summary>
     
       <category term="Java学习" scheme="http://yoursite.com/categories/Java%E5%AD%A6%E4%B9%A0/"/>
-    
-      <category term="IDE安装" scheme="http://yoursite.com/categories/Java%E5%AD%A6%E4%B9%A0/IDE%E5%AE%89%E8%A3%85/"/>
     
     
       <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
