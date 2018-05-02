@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/gallery/index.html</loc>
+    
+    <lastmod>2018-05-02T08:12:27.620Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/talk/index.html</loc>
+    
+    <lastmod>2018-05-02T08:11:59.908Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/04/22/%E4%BC%98%E9%9B%85%E7%9A%84Eclipse/</loc>
     
     <lastmod>2018-04-24T03:29:21.011Z</lastmod>
@@ -19,20 +33,6 @@
     <loc>http://yoursite.com/2018/04/22/%E6%91%98%E8%87%AA%E3%80%8A%E8%B6%85%E4%BD%93%E3%80%8B/</loc>
     
     <lastmod>2018-04-24T03:23:26.591Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/gallery/index.html</loc>
-    
-    <lastmod>2018-04-23T11:33:05.805Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/talk/index.html</loc>
-    
-    <lastmod>2018-04-21T14:51:40.565Z</lastmod>
     
   </url>
   
